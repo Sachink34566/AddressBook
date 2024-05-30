@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace AddressBook
     {
         static void Main(string[] args)
         {
+            ArrayList list = new ArrayList();
+            AddDetails addDetails = new AddDetails();
+
+            addDetails.AddDetail(list);
         }
     }
 }
