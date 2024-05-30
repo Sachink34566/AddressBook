@@ -15,6 +15,9 @@ namespace AddressBook
             AddDetails addDetails = new AddDetails();
 
             addDetails.AddDetail(list);
+
+            EditDetails editContacts = new EditDetails();
+            editContacts.EditingContact(list);
         }
     }
 }
